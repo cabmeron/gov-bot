@@ -7,6 +7,8 @@ committees/PACs, and campaign finance: receipts, disbursements, independent
 expenditures, filings). It can mix both sources in a single answer — e.g. a
 lawmaker's bills alongside their campaign fundraising.
 
+<img width="1370" height="767" alt="Screenshot 2026-06-28 at 11 21 34 AM" src="https://github.com/user-attachments/assets/8ad7f6ef-615a-41ed-817b-8a45987b6255" />
+
 ## Orchestration
 
 A three-layer multi-agent setup. Capabilities are organized as **skills**,
@@ -32,3 +34,4 @@ PDFs), available to both the researchers and the orchestrator.
 - **requests** for the Congress.gov / OpenFEC REST calls
 - **pypdf** + optional **pdf2image / pytesseract / Pillow** (with `poppler` and
   `tesseract`) for document extraction and OCR
+
